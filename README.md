@@ -257,3 +257,114 @@ http://h5o.github.io
 - css知识体系的重中之重
 - 早期以table为主（简单）
 - 后来以技巧性布局为主（难）
+- 现在有flexbox/grid（偏简单）
+- 响应式布局是必备知识
+
+#### 常用布局方式
+
+- table表格布局
+- float + margin
+- inline-block布局
+- flexbox布局
+
+#### display
+
+- block
+- inline
+- inline-block
+
+#### position
+
+- static
+- relative
+- absolute
+- fixed
+
+#### flexbox
+
+- 弹性盒子盒子本身就是并列的
+- 指定宽度即可
+
+#### float
+
+- 元素“浮动”
+
+- 脱离文档流
+
+- 但不脱离文本流
+
+- 对自身的影响
+
+  - 会形成“块”（BFC）
+
+  - 位置尽量靠上
+
+  - 位置尽量靠左/右
+
+- 对兄弟的影响
+
+  - 上面贴非float元素
+
+  - 旁边贴float元素
+
+  - 不影响其他块级元素的位置
+
+  - 影响其他块级元素内部文本
+
+- 对父级元素的影响
+
+  - 从布局上消失
+
+  - 高度塌陷
+
+#### inline-block
+
+- 像文本一样排列block元素
+- 没有清除浮动等问题
+- 需要处理间隙
+
+#### 响应式设计与布局
+
+- 在不同设备上正常使用
+- 一般处理屏幕大小问题
+- 主要方法：
+  - 隐藏
+  - 折行
+  - 自适应空间
+  - rem
+  - viewport
+  - media query
+
+### CSS面试真题
+
+#### 实现两栏（三栏）布局的方法
+
+- 表格布局
+- float + margin布局
+- inline-block布局
+- flexbox布局
+
+#### position:absolute/fixed区别
+
+- 前者相对最近的absolute或者relative
+- 后者相对屏幕
+
+#### display:inline-block的间隙
+
+- 原因：字符间距
+- 消灭字符或者间距
+
+#### 如何清除浮动
+
+- 让盒子负责自己的布局
+  - overflow:hidden(auto)
+  - ::after{clear:both}
+
+#### 如何适配移动端页面
+
+- viewport
+- rem/viewport/media query
+- 设计上：隐藏，折行，自适应
+
+### CSS效果
+
