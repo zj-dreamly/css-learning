@@ -368,3 +368,73 @@ http://h5o.github.io
 
 ### CSS效果
 
+#### box-shadow
+
+- 营造层次感（立体感）
+- 充当没有宽度的边框
+- 特殊效果
+
+#### text-shadow
+
+- 立体感
+- 印刷品质感
+
+#### border-radius
+
+- 圆角举行
+- 圆形
+- 半圆
+- 扇形
+
+#### background
+
+- 纹理
+- 图案
+- 渐变
+- 雪碧图动画
+- 背景图尺寸适应
+
+#### clip-path
+
+- 对容器进行裁剪
+- 常见几何图形
+- 自定义路径
+
+#### 3D变换
+
+### CSS面试真题
+
+#### 如何用一个div画XXX
+
+- box-shadow无限投影
+- :before
+- ::after
+
+#### 如何产生不占空间的边框
+
+- box-shadow
+- outline
+- box-sizing:border-box
+
+#### 如何实现圆形元素
+
+- border-radius:50%
+
+#### 如何实现背景图居中显示/不重复/改变大小
+
+- background-position
+- background-repeat
+- background-size（cover/contain）
+
+#### 如何平移/放大一个元素
+
+- transform:translateX(100px)
+- transform:scale(2)
+
+如何实现3D效果
+
+- perspective:500px
+- transform-style:preserve-3d
+- transform:translate rotate
+
+### CSS动画
